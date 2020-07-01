@@ -5,6 +5,15 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p {
+    color: gray;
+}
+
+.biography h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
 .heading-section {
     background-image: url("image/header-bg.png");
     background-repeat: no-repeat;
@@ -13,12 +22,21 @@ body {
     padding-bottom: 150px;
 }
 
-.heading-section p {
+.heading-section .hello {
     font-size: 40px;
 }
 
 .headnigtext {
-    color: red;
+    color: #ED4B72;
+    font-size: 50px;
+}
+
+.buuton_link {
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ED4B72;
 }
 
 .half-width {
@@ -44,17 +62,19 @@ body {
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 60px;
 }
 
 .latest-work h2 {
     text-align: center;
+    font-weight: 600;
 }
 
 .working-list {
     float: left;
-    width: 22%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .working-list img {
@@ -63,7 +83,7 @@ body {
 
 footer {
     background-image: url("image/footer-bg.png");
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
