@@ -81,7 +81,7 @@ p {
     width: 100%;
 }
 
-footer {
+.client_comment {
     background-image: url("image/footer-bg.png");
     height: 500px;
     background-repeat: no-repeat;
@@ -89,9 +89,13 @@ footer {
     text-align: center;
 }
 
-footer a {
+.client_comment a {
     text-decoration: none;
     background-color: #EC4B75;
     padding: 20px 100px;
     color: white;
+}
+
+footer p {
+    text-align: center;
 }
