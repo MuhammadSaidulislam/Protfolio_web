@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading-section {
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.biography {
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+.latest-work {
+    background-image: url("image/latest-work-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.latest-work h2 {
+    text-align: center;
+}
+
+.working-list {
+    float: left;
+    width: 22%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.working-list img {
+    width: 100%;
+}
+
+footer {
+    background-image: url("image/footer-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: #EC4B75;
+    padding: 20px 100px;
+    color: white;
+}
